@@ -73,12 +73,13 @@ CartModel - управление товарами внутри корзины
 
 # View:
 
-ModalView - отображение модального окна
+View (абстрактный класс) 
+ModalView - наследуется от View - отображение модального окна
 ProducItemtView - отображение карточки товара
-ProductModalView - отображение товара в модальном окне
+ProductModalView - наследуется от Modal - отображение товара в модальном окне
 CatalogView - отображение каталога товаров
-CartModalView - отображение корзины
-OrdeModalrView - отображение заказа
+CartModalView - наследуется от Modal - отображение корзины
+OrdeModalrView - наследуется от Modal - отображение заказа
 
 # Types
 

@@ -21,3 +21,8 @@ export interface IProductList {
     totalNumber: number,
     items: IProductItem[]
 }
+
+export interface ICartItem {
+  productId: number;
+  quantity: number;
+}
